@@ -1,5 +1,3 @@
-package old_programs;
-
 import java.util.*;
 
 class fibonacci {

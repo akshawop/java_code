@@ -1,5 +1,3 @@
-package myjava.oop.date_subtractor;
-
 import java.util.*;
 public class DifferenceInDates extends ValidDate
 {
@@ -38,7 +36,7 @@ public class DifferenceInDates extends ValidDate
         else
             return false;
     }
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
         String date1 = "", date2 = "";

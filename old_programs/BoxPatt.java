@@ -1,5 +1,3 @@
-package myjava;
-
 class BoxPatt
 {
 public static void main(String[] args)

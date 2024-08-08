@@ -1,5 +1,3 @@
-package myjava.oop.banking;
-
 public class Bank
 {
   String name;

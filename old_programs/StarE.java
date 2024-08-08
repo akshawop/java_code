@@ -1,5 +1,3 @@
-package myjava;
-
 public class StarE
 {
   public static void main(String[] args)

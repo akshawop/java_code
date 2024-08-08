@@ -1,5 +1,3 @@
-package myjava.oop.banking;
-
 import java.util.Scanner;
 public class Account extends Bank
 {
@@ -71,7 +69,7 @@ public class Account extends Bank
           acc.withdraw();
           break;
         case 0:
-          System.out.print("Exited!");
+          System.out.println("Exited!");
           break;
         default:
           System.err.println("Invalid Choice!");

@@ -1,4 +1,3 @@
-package myjava.java.myjava;
 import java.util.*;
 public class TicTacToe 
 {

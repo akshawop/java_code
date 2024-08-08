@@ -1,5 +1,3 @@
-package myjava.oop.date_subtractor;
-
 import java.util.Scanner;
 public class ValidDate
 { 
@@ -14,7 +12,7 @@ public class ValidDate
             flag = true;
             System.out.println("Enter the Date as DD/MM/YYYY"); 
             date = in.nextLine();
-            in.close();
+
             if(date.length() == 10)
             {
                 if(date.charAt(2) != '/' && date.charAt(5) != '/')
@@ -37,6 +35,7 @@ public class ValidDate
             if(flag == false) 
                 System.out.println("Not allowed!");
         }while(flag == false);
+        in.close();
         
         int a = Integer.parseInt(date.substring(0, 2)); //Date
         int b = Integer.parseInt(date.substring(3, 5)); //Month

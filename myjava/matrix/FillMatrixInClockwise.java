@@ -1,5 +1,3 @@
-package myjava.matrix;
-
 import java.util.*;
 public class FillMatrixInClockwise
 {
