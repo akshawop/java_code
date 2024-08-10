@@ -7,6 +7,7 @@ class Abbreviation
   String s,t="",st=""; int i;
   System.out.println("Enter the sentence:");
   s=in.nextLine();
+  in.close();
   s=s+" ";
   for(i=0;i<s.length();i++)
   {
@@ -19,6 +20,5 @@ class Abbreviation
     }
   }
   System.out.print("Abbreviation: "+st);
-  in.close();
   }
 }

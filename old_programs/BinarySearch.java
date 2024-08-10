@@ -3,7 +3,7 @@ class BinarySearch
 {
   public static void main(String[] args)
   {
-  Scanner in=new Scanner (System.in);
+  Scanner in=new Scanner(System.in);
   int n,a[],as,i,f=0;
   System.out.println("Enter the size:");
   n=in.nextInt();
@@ -31,6 +31,7 @@ class BinarySearch
   System.out.print("Number Found!");
   else
   System.err.print("Number Not Found!");
+  
   in.close();
-  }
+}
 }

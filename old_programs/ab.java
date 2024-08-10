@@ -21,6 +21,7 @@ class ab
           if(l==1 && u==1)
           LisPresent=true;
         }
+        in.close();
         
         if(Character.isDigit(x) && !DisPresent)
         DisPresent=true;
@@ -35,7 +36,5 @@ class ab
     }
     else
     System.out.print("Invalid");
-    
-    in.close();
   }
 }
